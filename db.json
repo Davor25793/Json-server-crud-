@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "title": "Remider",
+      "message": "Please, wash the dishes after work",
+      "id": 1
+    },
+    {
+      "title": "Task",
+      "message": "Pickup kids from school",
+      "id": 2
+    }
+  ]
+}

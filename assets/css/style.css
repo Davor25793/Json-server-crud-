@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  color: #333;
+  background: #f4f4f4;
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*Navbar*/
+#navbar{
+  background: rgb(92, 69, 173);
+  color: #fff;
+  padding: 10px 0;
+}
+
+.card{
+  border: 1px solid #ccc;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.card-title{
+  font-weight: 600;
+  line-height: 1.6;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.text{
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.form-group{
+  margin: 15px 0;
+}
+
+.form-group input, .form-group textarea{
+  display: block;
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  font-size: 15px;
+  margin: 10px 0;
+  font-weight: 500;
+}
+
+.post-submit{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background: rgb(25, 19, 46);
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  outline: none;
+}
+
+.post-submit.update{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background: orangered;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  outline: none;
+}
+
+.post-submit.cancel{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  background:red;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  outline: none;
+}
+
+.footer{
+  text-align: center;
+  margin: 30px 0;
+}
+
+.card-title{
+  font-size: 30px;
+}
+
+.post-title{
+  font-size: 20px;
+}
+
+.card-text{
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.edit{
+  color: coral;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.delete{
+  color: #333;
+  display: inline-block;
+}
+
+/*Alert classes*/
+.alert.alert-danger{
+  background: red;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.alert.alert-success{
+  background: green;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+}
